@@ -1,0 +1,118 @@
+
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    font-family: "Lexend Mega", sans-serif;
+    color: black;
+    background-color: beige;
+    font-size: 22px;
+    text-align: center;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10%;
+}
+
+a {
+    color: black;
+}
+
+.mission {
+    display: flex;
+    height: 600px;
+    background-image: url("C:/Users/shade/OneDrive/Documents/DevProject/Flex Box Site/resources/Pictures/Highrise  Bottom Up.jpg");
+    background-size: cover;
+}
+
+.mission .content{
+    margin: auto;
+}
+
+h2 {
+    display: block;
+    font-size: 1.53m;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+#car-selection {
+    min-height: 500px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.cars {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.car{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.car img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding: 10px;
+    height: auto;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+
+.team {
+    background-image: url("C:/Users/shade/OneDrive/Documents/DevProject/Flex Box Site/resources/Pictures/Highrise background for team.jpg");
+    padding-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.teammate {
+    padding: 10px;
+    color: white;
+    flex-basis: 280px;
+}
+
+.teammate img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: auto;
+}
